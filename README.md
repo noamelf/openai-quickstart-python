@@ -11,17 +11,24 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 3. Navigate into the project directory:
 
    ```bash
-   $ cd openai-quickstart-python
+   $ cd openai-quickstart-fastapi
    ```
 
 4. Create a new virtual environment:
 
    ```bash
+   Linux
    $ python -m venv venv
    $ . venv/bin/activate
    ```
 
-5. Install the requirements:
+   ```shell
+   # Window
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+5. Install the requirements
 
    ```bash
    $ pip install -r requirements.txt
@@ -30,10 +37,16 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 6. Make a copy of the example environment variables file:
 
    ```bash
+   # Linux
    $ cp .env.example .env
    ```
 
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
+   ```shell
+   # Window
+   xcopy .env.example .env
+   ```
+
+7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
 8. Run the app:
 
