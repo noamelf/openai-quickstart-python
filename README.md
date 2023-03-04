@@ -22,13 +22,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ . venv/bin/activate
    ```
 
-   ```shell
-   # Windows
-   python -m venv venv
-   venv\Scripts\activate
-   ```
-
-5. Install the requirements
+5. Install the requirements:
 
    ```bash
    $ pip install -r requirements.txt
@@ -41,13 +35,13 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ cp .env.example .env
    ```
 
-   ```shell
-   # Windows
-   xcopy .env.example .env
-   ```
+7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
 
+<<<<<<< HEAD
 7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
+=======
+>>>>>>> 1163bdf (Update README.md)
 8. Run the app:
 
    ```bash
