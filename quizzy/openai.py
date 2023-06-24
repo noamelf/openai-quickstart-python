@@ -1,4 +1,5 @@
 import json
+
 import openai
 
 from quizzy.config import settings
