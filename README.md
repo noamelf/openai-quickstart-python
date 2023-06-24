@@ -18,7 +18,8 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 
    ```bash
    # Linux
-   $ python -m venv venv
+   $ 
+   
    $ . venv/bin/activate
    ```
 
@@ -37,11 +38,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 
 7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
 
-<<<<<<< HEAD
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
-=======
->>>>>>> 1163bdf (Update README.md)
 8. Run the app:
 
    ```bash

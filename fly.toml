@@ -1,0 +1,20 @@
+# fly.toml app configuration file generated for long-voice-7208 on 2023-06-24T08:09:23+03:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "long-voice-7208"
+primary_region = "cdg"
+
+[build]
+  builder = "paketobuildpacks/builder:base"
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
